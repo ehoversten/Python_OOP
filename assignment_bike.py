@@ -32,14 +32,9 @@ class Bike:
 
 
 newBike = Bike("$100", 35)
-# print(newBike)
-# print(newBike.price)
-# print(newBike.max_speed)
-# print(newBike.miles)
 print(newBike.displayInfo())
-# newBike.ride()
+newBike.ride()
 print(newBike.miles)
 print(newBike.displayInfo())
-# newBike.ride()
 newBike.reverse()
 print(newBike.displayInfo())
