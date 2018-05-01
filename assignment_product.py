@@ -42,7 +42,7 @@ class Product(object):
         print('Item Name: ' + str(self.item_name))
         print('Price: $' + str(self.price))
         print('Brand: ' + str(self.brand))
-        print('Weight: ' + str(self.weight) + 'oz')
+        print('Weight: ' + str(self.weight) + 'lbs')
         print('Status: ' + str(self.status))
 
 
@@ -59,17 +59,17 @@ firstProduct.addTax(0.15).sell()
 firstProduct.sell()
 print(firstProduct.show())
 #
-# thirdProduct = Product(45, 'Desk Lamp', 500, 'Target', 'used')
+# thirdProduct = Product(45, 'Desk Lamp', 5, 'Target', 'used')
 # print(thirdProduct.show())
 # thirdProduct.addTax(0.12)
 # print(thirdProduct.show())
 #
 #
-# secondProduct = Product(2500, 'TV', 5000000, 'Target', 'for sale')
+# secondProduct = Product(2500, 'TV', 50, 'Target', 'for sale')
 # print(secondProduct.show())
 # secondProduct.returnProduct('defective')
 # print(secondProduct.show())
 #
 #
-# fourthProduct = Product(4.50, 'Toothpaste', 500, 'Target', 'for sale')
+# fourthProduct = Product(2.50, 'Toothpaste', 0.25, 'Target', 'for sale')
 # print(fourthProduct.show())
