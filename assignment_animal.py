@@ -51,6 +51,9 @@ class Dragon(Animal):
     def fly(self):
         self.health = self.health - 10
 
+    def displayHealth(self):
+        super().displayHealth()
+        print("I am a Dragon")
 
 
 # ------------------------------------------------------------------------------/
@@ -70,3 +73,8 @@ aDog.walk().walk().walk().run().run().pet().displayHealth()
 
 aDragon = Dragon("Falcore", 225)
 aDragon.displayHealth()
+
+aDog.displayHealth()
+
+secondDog = Dog("Max", 35)
+secondDog.displayHealth()
