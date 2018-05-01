@@ -7,7 +7,7 @@
 #
 # ------------------------------------------------------------------------------/
 
-class Product:
+class Product(object):
     def __init__(self, price, item_name, weight, brand, status):
         self.price = price
         self.item_name = item_name
@@ -53,11 +53,11 @@ class Product:
 #
 # ------------------------------------------------------------------------------/
 
-# firstProduct = Product(25, 'Batman T-Shirt', 500, 'Target', 'for sale')
-# print(firstProduct.show())
-# firstProduct.addTax(0.15).sell()
-# firstProduct.sell()
-# print(firstProduct.show())
+firstProduct = Product(25, 'Batman T-Shirt', 500, 'Target', 'for sale')
+print(firstProduct.show())
+firstProduct.addTax(0.15).sell()
+firstProduct.sell()
+print(firstProduct.show())
 #
 # thirdProduct = Product(45, 'Desk Lamp', 500, 'Target', 'used')
 # print(thirdProduct.show())
